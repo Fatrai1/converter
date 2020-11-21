@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 162, 162);
+}
+.wrapper {
+    max-width: 800px;
+    height: 600px;
+    background-color: rgb(66, 52, 52);
+    margin: 40px auto;
+    
+}
+h2 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.content {
+    max-width: 300px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    margin: 40px auto;
+
+}
+.input {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.feet {
+    padding-right: 12px;
+}
+.gomb {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.btn {
+    background-color: red;
+    color: white;
+}
